@@ -1,0 +1,84 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 120%;
+}
+
+p {
+  line-height: 180%;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.btn {
+  background-color: rgb(47, 16, 47);
+  color: bisque;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.bigTitle {
+  font-size: 3em;
+  font-weight: 300;
+  span {
+    font-weight: bold;
+  }
+}
+
+.partners {
+  padding: 5% 0;
+}
+
+.container h3 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.about {
+  padding: 5% 0;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/checkerboard-cross.png);
+  background-attachment: fixed;
+}
+
+.products {
+  padding: 5% 0;
+}
+
+.copyright {
+  background-color: rgb(88, 85, 72);
+  color: white;
+  text-align: center;
+}
+
+@for $i from 1 through 12 {
+  .col#{$i} {
+    width: calc((100% / (12 / $i)))-3%;
+    margin: 1.5%;
+  }
+}
