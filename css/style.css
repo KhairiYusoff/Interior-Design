@@ -20,7 +20,7 @@ p {
 }
 
 .btn {
-  background-color: rgb(47, 16, 47);
+  background-color: rgb(103, 19, 103);
   color: bisque;
   padding: 10px 30px;
   text-decoration: none;
@@ -135,4 +135,32 @@ p {
 .col12 {
   width: 97%;
   margin: 1.5%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: wheat;
+  height: 60px;
+}
+.header .logo {
+  font-size: 20px;
+}
+.header .menu {
+  padding: 10px;
+}
+.header .menu a {
+  text-decoration: none;
+  color: wheat;
+  padding: 10px;
+}
+.header .launch a {
+  text-decoration: none;
+  color: wheat;
+  padding: 10px 20px;
+  border: 1px solid wheat;
+  border-radius: 10px;
+  padding: 10px 30px;
 }/*# sourceMappingURL=style.css.map */
