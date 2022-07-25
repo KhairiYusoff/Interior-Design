@@ -50,30 +50,10 @@ p {
   }
 }
 
-.partners {
-  padding: 5% 0;
-}
-
 .container h3 {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
-}
-
-.about {
-  padding: 5% 0;
-  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/checkerboard-cross.png);
-  background-attachment: fixed;
-}
-
-.products {
-  padding: 5% 0;
-}
-
-.copyright {
-  background-color: rgb(88, 85, 72);
-  color: white;
-  text-align: center;
 }
 
 @for $i from 1 through 12 {
@@ -109,4 +89,27 @@ p {
     border-radius: 10px;
     padding: 10px 30px;
   }
+}
+
+.hero {
+  padding: 5% 0;
+}
+.partners {
+  padding-bottom: 5%;
+}
+
+.about {
+  padding: 5% 0;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/checkerboard-cross.png);
+  background-attachment: fixed;
+}
+
+.products {
+  padding: 5% 0;
+}
+
+.copyright {
+  background-color: rgb(88, 85, 72);
+  color: white;
+  text-align: center;
 }
